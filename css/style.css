@@ -6,43 +6,57 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#backgroundgray {
+.backgroundgray {
 
  background-color: whitesmoke;
-  
+
 }
 
 
 
 /*Regole Header*/
-#head-sfondo{
+header{
     background-color: white;
-    text-align: initial;
-    margin-left: 0%;
-    
+    height: 100px;
+    padding-top: 20px;
 }
 
-.intestazione img{
+ header img{
     width: 44px;
     height: 44px;
-    margin-left: 2%;
-
+    vertical-align: middle;
+    margin-left: 25px;
+    
 }
 
-.intestazione span{
-    font-size: 51px;
+header span{
+    font-size: 45px;
     font-weight: bold;
-    margin-right: 2%;
-    
+    line-height: 100%;
+    vertical-align: middle;
     
 }
+
+/*Regole Main Add*/
+main{
+    width: 30%;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: white;
+    height: 400px;
+    padding-left: 20px;
+    border-radius: 40px;
+    padding-left: 20px;
+    
+}
+
+
+
 
 .add-buttons button {
     margin-left: 6px;
     padding: 7px 10px 7px 10px;
     border-radius: 8px;
     border: none;
-
-}
-/*Regole Main Add*/
+}  
 
