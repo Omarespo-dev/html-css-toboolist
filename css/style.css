@@ -43,7 +43,7 @@ main{
     margin: 30px auto;
     padding: 20px;
     background-color: white;
-    height: 500px;
+    height: 550px;
     padding-left: 40px;
 }
 
@@ -73,10 +73,154 @@ main{
     border-bottom: solid 1px whitesmoke;
     padding-bottom: 15px;
     padding: 5px;
+    
 }
 
+/*NEW TASK*/
 .new-task{
-   padding: 20px;
-   font-size: large;
-   
+   padding: 10px;
+   font-size: 90%;
+    line-height: 0px;
+    margin-bottom: 0px;
 }
+
+
+
+/*NEW TASK*/
+.godown{
+    padding-top: 25px;
+    
+}
+
+.godown ul{
+    list-style: none;
+    font-size: 80%;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+
+.godown span{
+    color: white;
+    margin-left: 4px;
+    background-color: deepskyblue;
+    padding: 5px 10px 5px 8px;
+    border-color: deepskyblue;
+    border-radius: 10px;
+    font-size: 70%;
+}
+
+
+
+.frecciaverde::before {
+    content: "\2713";
+    font-size: 8px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 3px 3px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.frecciarossa::before {
+    content: "\274C";
+    font-size: 7px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px 2px 2px 2px;
+    
+}
+
+/*Today*/
+
+.class-h3{
+    padding: 15px;
+   font-size: 100%;
+    line-height: 0px;
+    margin-bottom: 0px;
+
+}
+
+.container-center{
+    padding-top: 25px;
+}
+
+.container-ul{
+    list-style: none;
+    font-size: 80%;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.container-span{
+    color: white;
+    margin-left: 4px;
+    background-color: deepskyblue;
+    padding: 5px 10px 5px 8px;
+    border-color: deepskyblue;
+    border-radius: 10px;
+    font-size: 70%;
+}
+
+.container-span1{
+    color: white;
+    margin-left: 4px;
+    background-color: blueviolet;
+    padding: 5px 10px 5px 8px;
+    border-color: deepskyblue;
+    border-radius: 10px;
+    font-size: 70%;
+}
+
+.container-span2{
+    color: white;
+    margin-left: 4px;
+    background-color: seagreen;
+    padding: 5px 10px 5px 8px;
+    border-color: deepskyblue;
+    border-radius: 10px;
+    font-size: 70%;
+}
+.container-span3{
+    color: white;
+    margin-left: 4px;
+    background-color: orange;
+    padding: 5px 10px 5px 8px;
+    border-color: deepskyblue;
+    border-radius: 10px;
+    font-size: 70%;
+}
+
+.container-center li{
+    padding: 10px;
+}
+
+
+/*Upcoming Final*/
+
+.class-h3final{
+    padding: 15px;
+   font-size: 100%;
+    line-height: 0px;
+    margin-bottom: 0px;
+
+}
+
+.container--ul{
+    list-style: none;
+    font-size: 80%;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.container-final{
+    padding-top: 10px;
+}
+
+.container--ul li{
+    padding: 10px;
+}   
