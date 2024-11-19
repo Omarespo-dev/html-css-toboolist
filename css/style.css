@@ -3,6 +3,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+    
+   
 }
 
 
+
+/*Regole Header*/
+#head-sfondo{
+    background-color: white;
+    text-align: left
+}
+
+.intestazione img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.intestazione span{
+    font-size: 51px;
+    font-weight: bold;
+    
+}
+
+
+/*Regole Header 2 ADD TASK*/
+
+.add {
+    font-size: 15px;
+
+}
