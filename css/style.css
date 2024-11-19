@@ -96,7 +96,7 @@ main{
     list-style: none;
     font-size: 80%;
     margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 
@@ -224,3 +224,32 @@ main{
 .container--ul li{
     padding: 10px;
 }   
+
+.container--span1{
+    color: white;
+    margin-left: 4px;
+    background-color: violet;
+    padding: 5px 10px 5px 8px;
+    border-color: deepskyblue;
+    border-radius: 10px;
+    font-size: 70%;
+}
+
+.container--span2{
+    color: white;
+    margin-left: 4px;
+    background-color: yellowgreen;
+    padding: 5px 10px 5px 8px;
+    border-color: deepskyblue;
+    border-radius: 10px;
+    font-size: 70%;
+}
+.container--span3{
+    color: white;
+    margin-left: 4px;
+    background-color: orange;
+    padding: 5px 10px 5px 8px;
+    border-color: deepskyblue;
+    border-radius: 10px;
+    font-size: 70%;
+}
