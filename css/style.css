@@ -39,24 +39,44 @@ header span{
 
 /*Regole Main Add*/
 main{
-    width: 30%;
+    width: 45%;
     margin: 30px auto;
-    padding: 10px;
+    padding: 20px;
     background-color: white;
-    height: 400px;
-    padding-left: 20px;
-    border-radius: 40px;
-    padding-left: 20px;
-    
+    height: 500px;
+    padding-left: 40px;
 }
-
-
 
 
 .add-buttons button {
     margin-left: 6px;
     padding: 7px 10px 7px 10px;
     border-radius: 8px;
-    border: none;
+    
 }  
 
+.buttons-color{
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+}
+
+.buttons-colorr{
+
+    border-color: whitesmoke;
+    background-color:white;
+    color: gainsboro
+
+}
+
+.container{
+    border-bottom: solid 1px whitesmoke;
+    padding-bottom: 15px;
+    padding: 5px;
+}
+
+.new-task{
+   padding: 20px;
+   font-size: large;
+   
+}
